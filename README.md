@@ -3,8 +3,8 @@ cart
 
 Shopping Cart Package based on Codeigniter's Cart Class
 
-INSTALLATION
-------------------------------------------------
+##INSTALLATION
+
     "require": {
     	"laravel/framework": "4.0.*",
 	"eubby06/cart": "dev-master"
@@ -23,8 +23,8 @@ add to aliases:
 	                'Cart' => 'Eubby06\Cart\Facades\Cart'
 
 
-USAGE
----------------------------------------------
+##USAGE
+
 ```php
 Add Item:
 
