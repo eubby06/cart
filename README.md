@@ -1,7 +1,7 @@
-cart
+Shopping Cart Package
 ====
 
-Shopping Cart Package based on Codeigniter's Cart Class
+This shopping cart class is heavily based on codeigniter's cart class.
 
 ##INSTALLATION
 
