@@ -5,24 +5,27 @@ Shopping Cart Package based on Codeigniter's Cart Class
 
 INSTALLATION
 --------------------------------------------------------------
-
-"require": {
-    "laravel/framework": "4.0.*",
-    "eubby06/cart": "dev-master"
-}
+```php
+    "require": {
+    	"laravel/framework": "4.0.*",
+		"eubby06/cart": "dev-master"
+	}
 
 run composer update
 
 add to providers:
-'Eubby06\Cart\CartServiceProvider'
+'providers' => array(
+                    'Eubby06\Cart\CartServiceProvider'
 
 add to aliases:
-'Cart' => 'Eubby06\Cart\Facades\Cart'
-
+'aliases' => array(
+                'Cart' => 'Eubby06\Cart\Facades\Cart'
+```
 --------------------------------------------------------------
 
 USAGE
 --------------------------------------------------------------
+```php
 Add Item:
 
 //create an array variable
@@ -84,3 +87,5 @@ Cart::productOptions(rowid);
 
 //destroy cart session
 Cart::destroy();
+
+```
