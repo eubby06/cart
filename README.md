@@ -7,8 +7,8 @@ Shopping Cart Package based on Codeigniter's Cart Class
 
     "require": {
     	"laravel/framework": "4.0.*",
-	"eubby06/cart": "dev-master"
-	}
+    	"eubby06/cart": "dev-master",
+		}
 
 	composer update
 
@@ -30,11 +30,10 @@ Add Item:
 
 //create an array variable
 $data = array(
-               'id'      => 'sku_123ABC',
+               'id'      => 'sku001',
                'qty'     => 1,
-               'price'   => 39.95,
-               'name'    => 'T-Shirt',
-               'options' => array('Size' => 'L', 'Color' => 'Red')
+               'price'   => 22.60,
+               'name'    => 'Headset'
             );
 
 //call Cart method insert and pass the array data
