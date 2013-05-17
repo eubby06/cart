@@ -1,0 +1,25 @@
+{
+    "name": "eubby06/cart",
+    "description": "A simple shopping cart class based on Codeigniter cart class",
+    "authors": [
+        {
+            "name": "Yonanne Remedio",
+            "email": "eubby06@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Eubby\\Cart": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
